@@ -1,0 +1,31 @@
+{
+  "name": "nuxtjs-example",
+  "profile": "my-aws-account-for-lambda",
+  "regions": ["ap-northeast-2"],
+  "lambda": {
+    "memory": 256,
+    "runtime": "nodejs8.10"
+  },
+  "proxy": {
+    "command": "npm start",
+    "timeout": 25,
+    "listen_timeout": 15,
+    "shutdown_timeout": 15
+  },
+  "stages": {
+    "development": {
+      "proxy": {
+        "command": "npm dev"
+      }
+    }
+  },
+  "environment": {
+    "NODE_ENV": "production"
+  },
+  "error_pages": {
+    "variables": {
+      "support_email": "admin@my-email.com",
+      "color": "#2986e2"
+    }
+  }
+}
