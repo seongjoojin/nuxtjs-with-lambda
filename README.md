@@ -172,3 +172,7 @@ The Up will inspect your files to compose and deploy to lambda. Firstly The up w
 ```
 $ up
 ```
+
+## Special Thanks
+
+@mattdamon108 (https://github.com/mattdamon108/nextjs-with-lambda)
