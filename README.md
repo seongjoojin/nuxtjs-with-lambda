@@ -14,21 +14,8 @@ or
 $ npx create-nuxt-app <project-name>
 ```
 
-Choose server-side framework Express.
-
-> initial install
-
-```
-$ cd <project-name>
-$ npm i
-```
-
-or
-
-```
-$ cd <project-name>
-$ yarn
-```
+Choose custom server framework Express.
+Choose a package manager yarn.
 
 ## Install Apex Up
 
