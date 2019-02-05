@@ -2,7 +2,7 @@
 
 This is a tiny example to show how to deploy the Nuxt.js app on AWS Lambda using [Apex Up](https://up.docs.apex.sh).
 
-## Nuxt.js initial install
+## Nuxt.js initial setting
 
 ```
 $ yarn create nuxt-app <my-project>
@@ -15,6 +15,8 @@ $ npx create-nuxt-app <project-name>
 ```
 
 Choose server-side framework Express.
+
+> initial install
 
 ```
 $ cd <project-name>
