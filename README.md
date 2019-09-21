@@ -1,5 +1,7 @@
 # Nuxt.js with AWS Lambda
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/seongjoojin/nuxtjs-with-lambda.svg)](https://greenkeeper.io/)
+
 This is a tiny example to show how to deploy the Nuxt.js app on AWS Lambda using [Apex Up](https://up.docs.apex.sh).
 
 ## Nuxt.js initial setting
